@@ -1,0 +1,41 @@
+@media screen and (max-width: 480px) {
+    main {
+        height: 85%;
+        flex-direction: column;
+    }
+
+    header {
+        height: 15%;
+    }
+
+    .box-bcde {
+        width: 100%;
+        height: 78%;
+    }
+
+    .box-b {
+        width: 96%;
+        height: 70%;
+    }
+
+    header, .box-b, .box-c, .box-d, .box-e, .box-f {
+        border: 1px solid black;
+        border-radius: 5px;
+        margin: 2vw;
+    }
+
+    .box-cde {
+        width: 100%;
+        height: 25%;
+    }
+
+    .box-f {
+        width: 96%;
+        height: 18%;
+    }
+
+    .box-c, .box-d, .box-e {
+        width: 35%;
+        height: 96%;
+    }
+}

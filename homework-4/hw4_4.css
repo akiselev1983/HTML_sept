@@ -1,0 +1,25 @@
+body{
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+
+}
+.main{
+    width: 50vw;
+    height: 50vh;
+    background-color: #7bc97b;
+}
+header{
+    text-align: center;
+    color: red;
+}
+form{
+    padding-left: 20px;
+}
+label{
+    display: block;
+    margin: 30px 0 20px 0;
+}
